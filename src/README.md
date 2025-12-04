@@ -3,10 +3,12 @@ home: true
 layout: Blog
 icon: house
 title: 主页 Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.png
 heroText: mskk 的个人博客
 heroFullScreen: true
 tagline: 大家我都喜欢哦
+bgImage: /background/5040-5.3.webp
+bgImageDark: /background/5040-5.3.webp
 projects:
   - icon: house
     name: 我的主博客

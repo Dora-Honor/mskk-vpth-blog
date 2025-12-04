@@ -32,7 +32,7 @@ export default defineUserConfig({
       {
         rel: "stylesheet",
         crossorigin: "anonymous",
-        href: "/css/MiSans.css",
+        href: "css/MiSans.css",
       }
     ],
     [
@@ -40,7 +40,7 @@ export default defineUserConfig({
       {
         rel: "stylesheet",
         crossorigin: "anonymous",
-        href: "/css/HYWenHei-85W.css",
+        href: "css/HYWenHei-85W.css",
       }
     ]
   ],

@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://dora-honor.github.io/",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
   repo: "Dora-Honor/mskk-vpth-blog",
 
@@ -33,6 +33,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+    avatar: "/user.jpg",
     description: "大家我都喜欢哦",
     intro: "/intro.html",
     medias: {
