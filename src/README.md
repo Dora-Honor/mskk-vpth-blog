@@ -2,31 +2,31 @@
 home: true
 layout: Blog
 icon: house
-title: mskk 的个人博客
+title: 主页 Home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: mskk 的个人博客
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 大家我都喜欢哦
 projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: house
+    name: 我的主博客
+    desc: 使用 Hexo 框架加 Butterfly 主题搭建的主博客
+    link: https://dora-honor.github.io/
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 我的旧博客站点
+    desc: 使用 docsify 搭建的旧博客站点
+    link: https://dora-honor.github.io/mskk-blog/
 
   - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: 我的项目
+    desc: leadership-kcgi 项目（日语）
+    link: https://dora-honor.github.io/leadership-kcgi/
 
   - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: 我的文档站点
+    desc: mskk 的个人文档
+    link: https://dora-honor.github.io/mskk-vpth-docs/
 
   - icon: user-group
     name: 伙伴名称
@@ -37,8 +37,6 @@ projects:
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
 ---
 
 这是一个博客主页的案例。
