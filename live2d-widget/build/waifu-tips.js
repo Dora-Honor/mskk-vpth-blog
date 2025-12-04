@@ -1,2 +1,1 @@
-import { initWidget } from './widget.js';
-window.initWidget = initWidget;
+import{initWidget}from"./widget.js";window.initWidget=initWidget;
