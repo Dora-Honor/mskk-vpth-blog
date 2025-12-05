@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://dora-honor.github.io/mskk-vpth-blog/",
 
   author: {
     name: "Dora Honor",
@@ -153,13 +153,18 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    search: true,
+    seo: true,
 
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      provider: "Waline",
+      serverURL: "https://darling-pixie-2320de.netlify.app/.netlify/functions/comment",
+      dark: "auto",
+      reaction: true,
+      requiredMeta: ["nick", "mail"],
+    },
 
     components: {
       components: ["Badge", "VPCard"],

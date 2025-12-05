@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-search": "2.0.0-rc.120",
+    "@waline/client": "^3.8.0",
     "sass": "^1.94.2",
     "sass-embedded": "^1.93.3",
     "sass-loader": "^16.0.6",
