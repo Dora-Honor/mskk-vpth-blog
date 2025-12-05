@@ -1,1 +1,27 @@
-function randomSelection(e){return Array.isArray(e)?e[Math.floor(Math.random()*e.length)]:e}function randomOtherOption(e,r){const n=Math.floor(Math.random()*(e-1));return n>=r?n+1:n}function loadExternalResource(e,r){return new Promise((n,t)=>{let o;"css"===r?(o=document.createElement("link"),o.rel="stylesheet",o.href=e):"js"===r&&(o=document.createElement("script"),o.src=e),o&&(o.onload=()=>n(e),o.onerror=()=>t(e),document.head.appendChild(o))})}export{randomSelection,loadExternalResource,randomOtherOption};
+function randomSelection(obj) {
+    return Array.isArray(obj) ? obj[Math.floor(Math.random() * obj.length)] : obj;
+}
+function randomOtherOption(total, excludeIndex) {
+    const idx = Math.floor(Math.random() * (total - 1));
+    return idx >= excludeIndex ? idx + 1 : idx;
+}
+function loadExternalResource(url, type) {
+    return new Promise((resolve, reject) => {
+        let tag;
+        if (type === 'css') {
+            tag = document.createElement('link');
+            tag.rel = 'stylesheet';
+            tag.href = url;
+        }
+        else if (type === 'js') {
+            tag = document.createElement('script');
+            tag.src = url;
+        }
+        if (tag) {
+            tag.onload = () => resolve(url);
+            tag.onerror = () => reject(url);
+            document.head.appendChild(tag);
+        }
+    });
+}
+export { randomSelection, loadExternalResource, randomOtherOption };

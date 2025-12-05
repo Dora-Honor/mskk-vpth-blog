@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mister-hope.github.io/mskk-vpth-blog/sitemap.xml
+Sitemap: https://dora-honor.github.io/mskk-vpth-blog/mskk-vpth-blog/sitemap.xml
