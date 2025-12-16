@@ -13,6 +13,8 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
+  favicon: "/favicon.ico",
+
   repo: "Dora-Honor/mskk-vpth-blog",
 
   docsDir: "src",
@@ -53,6 +55,7 @@ export default hopeTheme({
       Instagram: "https://instagram.com/dora_honor",
       Facebook: "https://www.facebook.com/dora.honor.944",
       "163Music": "https://music.163.com/#/user/home?id=436313178",
+      Steam: "https://steamcommunity.com/id/dorahonor/",
       VuePressThemeHope: {
         icon: "https://theme-hope-assets.vuejs.press/logo.svg",
         link: "https://theme-hope.vuejs.press/zh/",
