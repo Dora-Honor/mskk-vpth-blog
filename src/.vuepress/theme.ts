@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://dora-honor.github.io/mskk-vpth-blog/",
+  hostname: "https://vpthblog.dorahonor.me",
 
   author: {
     name: "Dora Honor",
-    url: "https://dora-honor.github.io/",
+    url: "https://dorahonor.me",
   },
 
   logo: "/logo.png",
