@@ -13,32 +13,32 @@ projects:
   - icon: house
     name: 我的主博客
     desc: 使用 Hexo 框架加 Butterfly 主题搭建的主博客
-    link: https://dora-honor.github.io/
+    link: https://dorahonor.me
 
   - icon: link
     name: 我的旧博客站点
     desc: 使用 docsify 搭建的旧博客站点
-    link: https://dora-honor.github.io/mskk-blog/
+    link: https://docsify.dorahonor.me
 
   - icon: book
     name: 我的项目
     desc: leadership-kcgi 项目（日语）
-    link: https://dora-honor.github.io/leadership-kcgi/
+    link: https://leadership.dorahonor.me
 
   - icon: newspaper
     name: 我的文档站点
     desc: mskk 的个人文档
-    link: https://dora-honor.github.io/mskk-vpth-docs/
+    link: https://vpthdocs.dorahonor.me
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: 我的 NexT 博客
+    desc: 使用 Hexo 框架加 NexT 主题搭建的博客
+    link: https://hexonext.dorahonor.me
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: Hope
+    desc: VuePress-Theme-Hope 文档
+    link: https://theme-hope.vuejs.press/zh/
 ---
 
 这是一个博客主页的案例。
