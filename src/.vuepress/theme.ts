@@ -35,7 +35,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    avatar: "/user.jpg",
+    avatar: "/user.webp",
     description: "大家我都喜欢哦",
     intro: "/intro.html",
     medias: {
