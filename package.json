@@ -21,9 +21,8 @@
     "vuepress": "2.0.0-rc.26",
     "vuepress-theme-hope": "2.0.0-rc.102"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
+  ".pnpmfile.cjs": "custom pnpm configuration",
+  "pnpmConfig": {
+    "autoInstallPeers": true
   }
 }
